@@ -1,13 +1,20 @@
-function reverseString(word) {
-  return word.split("").reverse().join("");
-}
+function isPalindrome(string) {
   // Write your algorithm here
-   
-  
-
+   const reversestring = reverse(string);
+   if (string === reversestring) {
+   return true;
+  }
+  else {
+    return false;
+  }
+}
 
 /* 
   Add your pseudocode here
+  define a function called isPalindrome which takes a string
+  create a new string containing the reversed string
+  use if statement to check if string is false or true. if string is reversed return true
+  if otherwise use else and it will return false
 */
 
 /*
